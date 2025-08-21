@@ -74,7 +74,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>SQL</li>
               <li>MongoDB</li>
             </ul>
           </motion.div>
@@ -88,9 +88,9 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
-              <li>Docker</li>
-              <li>AWS</li>
-              <li>CI/CD</li>
+              <li>Postman</li>
+              <li>Vercel / Netlify</li>
+            
             </ul>
           </motion.div>
         </motion.div>
@@ -119,16 +119,17 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
+            <h3 className="text-xl font-semibold mb-2">Front-End Developer (Intern) – React.js</h3>
+            <p className="text-primary mb-2">NinePages TechSolution Pvt. Ltd., Agra | November 2024 – Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Led development of multiple web applications using React and Node.js</li>
+              <li>Worked on developing dynamic web applications using React.js</li>
               
-              <li>Mentored junior developers and conducted code reviews</li>
+              <li>Assisted in implementing UI components and maintaining code quality</li>
+              <li>Collaborated with team members for project development and debugging</li>
             </ul>
           </motion.div>
           
-          <motion.div 
+          {/*<motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
@@ -140,7 +141,7 @@ export default function About() {
               <li>Built responsive user interfaces with modern JavaScript frameworks</li>
               <li>Optimized database queries improving performance by 40%</li>
             </ul>
-          </motion.div>
+          </motion.div>*/}
         </motion.div>
       </motion.section>
 
@@ -167,7 +168,7 @@ export default function About() {
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">Bachelor of Computer Applications</h3>
-            <p className="text-primary mb-2">University Name • 2022 - 2025</p>
+            <p className="text-primary mb-2">Dr. Bhim Rao Ambedkar University • 2022 - 2025</p>
             <p className="text-secondary">
               Graduated with honors. Focused on software engineering and web development.
             </p>
